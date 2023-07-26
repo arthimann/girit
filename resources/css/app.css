@@ -1,0 +1,60 @@
+:root {
+    --main-color: #ff5722;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#app {
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.primary-text-color {
+    color: var(--main-color);
+}
+
+.primary-bg-color {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.tip {
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+
+.item-img {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-title {
+    color: white;
+    padding: 20px;
+}
+
+.card-bg {
+    background-color: rgba(33, 33, 37, 0.6) !important;
+    backdrop-filter: blur(4px);
+    color: white !important;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 48px;
+}
+
+.main-title-url {
+    text-decoration: none;
+}
